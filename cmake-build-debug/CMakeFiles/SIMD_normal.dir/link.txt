@@ -1,0 +1,3 @@
+"D:\somethin\newClion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SIMD_normal.dir/objects.a
+D:\somethin\mingw64\bin\ar.exe cr CMakeFiles\SIMD_normal.dir/objects.a @CMakeFiles\SIMD_normal.dir\objects1.rsp
+D:\somethin\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\SIMD_normal.dir/objects.a -Wl,--no-whole-archive -o SIMD_normal.exe -Wl,--out-implib,libSIMD_normal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SIMD_normal.dir\linklibs.rsp
